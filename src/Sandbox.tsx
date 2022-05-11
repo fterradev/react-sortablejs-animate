@@ -71,7 +71,7 @@ function Sandbox() {
         list={items1}
         setList={setItems1}
         direction="horizontal"
-        animation={500}
+        animation={1000}
         group={{
           name: "g1",
           put: true,
@@ -92,9 +92,9 @@ function Sandbox() {
         list={items2}
         setList={setItems2}
         direction="horizontal"
-        animation={500}
+        animation={1000}
         group={{
-          name: "g1",
+          name: "g2",
           put: true,
         }}
       >
